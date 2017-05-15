@@ -15,6 +15,9 @@ body.appendChild(bhead);
 document.getElementsByTagName('html')[0].appendChild(body);
 
 //Changing Page styling
-document.getElementsByTagname("body")[0].style.background="black";
-document.getElementsByTagname("h1").style.color=white;
+body.style.background="black";
+bhead.style.color="white";
 
+/*var bgroundColor=body.style.background="black";
+var textColor=document.style.color="white";
+documnent.getElementsByTagname("body")[0].appendChild(bgroundColor);*/
