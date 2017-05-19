@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>             
+            <title>Welcome to K-COP</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <style>
+		body, html {
+                    background-color:black;
+                    height:100%;
+		}
+
+		p {
+                    color:white;
+                }
+                
+                div {
+                    border: solid 1px red;
+                }
+                
+                h1 {
+                    text-align: center;
+                    color:white;
+                }
+                
+                #archive {
+                    text-align: center;
+                }
+                
+                #articles{
+                    text-align:center;
+                }
+                
+                #sReadings{
+                    text-align: center;
+                }
+            </style>
+	</head>
+
+	<body>
+            <div class="container-fluid">
+                <!--Title Box -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>KCOP</h1>
+                        
+                    </div>
+                </div>
+                <!--Navbar -->
+                <nav class="navbar fixed-top navbar-toggleable-lg navbar-inverse">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="/">Tasks Manager</a>
+                    </div>
+                    <!--<ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a class="nav-link" href="#">Daily Tasks -automatically generate date here-</a></li>
+                      <li><a class="nav-link" href="#">Weekly Tasks</a></li>
+                      <li><a class="nav-link" href="#">Monthly/Miscellaneous Tasks</a></li>
+                    </ul>-->
+                      <div class="nav-link navbar-toggler-right">
+                        <button class="btn btn-sm btn-outline-secondary" 
+                                type="button" 
+                                data-toggle="modal" 
+                                data-target="#modal_login">
+                            Login
+                        </button>
+                        <button class="btn btn-sm btn-outline-secondary"
+                                type="button"
+                                data-toggle="modal"
+                                data-target="#modal_register">
+                            Register
+                        </button>
+                      </div>
+                </nav>    
+                <div class="row">
+                    <div id="archive" class="col-sm-2">
+                        <p>Archives</p>
+                    </div>
+                
+                    <div id="articles" class="col-sm-8">
+                        <!-- Would Like to include content from "/articles" here -->
+                        <p>Articles</p>
+                    </div>
+                
+                    <div id="sReadings" class="col-sm-2">
+                        <p>Suggested Readings</p>
+                    </div>                   
+                </div>
+                <p id="opening_para">The start of something big</p>
+            </div>
+		
+	</body>
+
+</html>
